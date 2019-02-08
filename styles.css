@@ -1,0 +1,117 @@
+
+
+head{
+  background-color: #00a84f;
+  color: #fff; 
+  font-size: 100%;
+  font: inherit;
+}
+.container{
+	padding:2px;
+}
+body{
+/*background-image:url("https://hapakenya.com/wp-content/uploads/2015/12/Capture-Kenya.jpg");*/
+ background-color:white; 
+background-position: center;
+  
+  font-family: calibri, sans-serif;
+  margin-left: 1px;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  
+}
+.nav{
+	 width:100%;
+}
+.nav a {
+  float: left;
+  background-color:#00a84f;
+  color:white ;
+ 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+} 
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+.undernav{
+	width:100%;
+}
+.undernav a{
+  float: left;
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding: 25px 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.undernav a:hover {
+  background-color:#00a84f;
+  color: black;
+}
+
+.promotions{
+	float:left;
+	margin-top:4px;
+	margin-left:2px;
+	
+  
+}
+
+.promo{
+  float: left;
+  
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding:25px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+.payments{
+  float: left;
+  display:flex;
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding:25px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#footer {
+    display: table;
+    max-width: 60em;
+    padding: 1.25em;
+    margin: 0 auto;
+    border: 0.062em solid grey;
+    background-color: black;
+    color:  white;
+ }
+
+#footer div {
+    display: table-cell;
+    width: 33%;
+    padding: 1%;
+    text-align: center;
+}
+
+#footer div h2 {
+    text-align: center;
+ }
+
+#footer div:nth-of-type(2) {
+    border-right: 0.062em dotted #999;
+    border-left: 0.062em dotted #999;
+ }
+
+#footer div:nth-of-type(3) {
+    text-align: left;
+ }
